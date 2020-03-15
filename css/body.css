@@ -1,0 +1,69 @@
+
+.banner {
+   width: 100%;
+   height: 625px;
+   background: linear-gradient(to bottom left, #004e92 ,#000428);
+}
+
+.banner-inner {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+.banner-content {
+   position: absolute;
+   width: 100%;
+   top: 15%;
+   display: flex;
+}
+
+.content-left, .content-right {
+   width: 50%;
+   display: flex;
+   color: aliceblue;
+}
+
+.description p{
+   font-size: 55px;
+   font-family: "Nunito San";
+   margin: 0;
+   border-bottom: solid 1px aliceblue; 
+}
+
+.content-right {
+   justify-content: center; 
+}
+
+.img-container {
+   background: white;
+   height: 400px;
+   width: 400px;
+   box-shadow: 2px 5px 35px rgba(0, 0, 0, 0.397)
+}
+
+.title{
+   font-size: 42px;
+   text-align: center;
+   padding: 25px 0 40px 0
+}
+
+.product {
+   width: 100%;
+   border-top: ridge 3px rgb(255, 187, 0);
+   padding-bottom: 50px;
+}
+
+.product-content {
+   font-family: 'Nunito San';
+   width: 75%;
+   margin: auto;
+   text-align: justify;
+   text-indent: 50px;
+}
+
+.product-content p {
+   color: #242424;
+}
+
+
